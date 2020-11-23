@@ -2,12 +2,12 @@ def substrings (str, dict)
   hash = {}
 
   for s in dict
-    tempStr = str
-    if tempStr.include? s
+    temp_str = str
+    if temp_str.include? s
       value = 0
-      while tempStr.include? s
+      while temp_str.include? s
         value += 1
-        tempStr = tempStr.sub(s, '')
+        temp_str = temp_str.sub(s, '')
       end
       hash[s] = value
     end

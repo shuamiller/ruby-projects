@@ -1,10 +1,42 @@
 class LinkedList
   def initialize
-    array = []
+    @array = []
   end
 
   def append(value)
-    
+    Node.new()
+  end
+
+  def prepend(value)
+
+  end
+
+  def size
+
+  end
+
+  def head
+
+  end
+
+  def tail
+
+  end
+
+  def at(index)
+
+  end
+
+  def pop
+
+  end
+
+  def contains?(value)
+
+  end
+  
+  def to_s
+
   end
 end
 
@@ -12,8 +44,7 @@ class Node
   @value = nil
   @next_node = nil
 
-  def initialize(value, next_node)
+  def initialize(value)
     @value = value
-    @next_node = next_node
   end
 end
